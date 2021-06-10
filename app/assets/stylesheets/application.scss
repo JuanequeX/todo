@@ -151,7 +151,10 @@ body {
 
 .links {
 	color: white;
-	display: block;
+	display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  width: 50%;
 	font-size: 0.8em;
 	margin: 1.5em auto 0 auto;
 	text-align: center;
@@ -190,7 +193,7 @@ input[type="submit"] {
 	height: 40px;
 	outline: none;
 	transition: all .4s ease-in-out;
-	width: 25%;
+	width: 100%;
 	&:hover {
 		background: $dark;
 		color: white;
